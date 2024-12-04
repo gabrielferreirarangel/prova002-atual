@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'regular';
+}
+
+.header-inner-content{
+    max-width: 1300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#navbar{
+    background-color: var(--color1);
+    padding: 20px;
+    box-shadow: 10px 0 10px;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    
+}
+
+#navbar>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-icon-container{
+    display: flex;
+    align-items: center;
+}
+
+.nav-icon-container img{
+    width: 30px;
+    cursor: pointer;
+}
+
+.nav-icon-container .cart-image{
+    margin-right: 20px;
+}
+
+nav ul li{
+    color: var(--color6);
+    margin-right: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, padding 0.3s ease;
+    border-radius: 10px;
+}
+
+#logo{
+    width: 150px;
+}
+
+nav ul li:hover{
+    background-color: var(--color5);
+    padding: 7px;
+}
+
+
+.menu-button{
+    display: none;
+}
+
+header{
+    background-image: radial-gradient( #9e9e9e, #FFFFFF );
+}
+
+.header-bottom-side{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    padding: 60px;
+}
+
+.header-bottom-side-left{
+    height: 100%;
+    flex-basis: 50%;
+}
+
+.header-bottom-side-left h2{
+    font-size: 3.2em;
+    margin-bottom: 1.5em;
+    font-family: 'semi-bold';
+}
+
+.header-bottom-side-left button{
+    background-color: var(--color2);
+    border: none;
+    cursor: pointer;
+    padding: 0.8em 3.8em;
+    border-radius: 9999px;
+    color: #ffff;
+    font-weight: 500;
+    font-size: 1em
+
+}
+
+.header-bottom-side-left button:hover{
+    background-color: var(--color5);
+    transition-duration: 0.3s;
+}
+
+.header-bottom-side-left p{
+    line-height: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.header-bottom-side-right{
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-bottom-side-right img{
+    width: 115%;   
+}
+
