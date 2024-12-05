@@ -46,8 +46,10 @@ nav ul{
     cursor: pointer;
 }
 
-.nav-icon-container .cart-image{
+.nav-icon-container p{
     margin-right: 20px;
+    color: var(--color6);
+    font-weight: 600;
 }
 
 nav ul li{
@@ -126,4 +128,82 @@ header{
 .header-bottom-side-right img{
     width: 115%;   
 }
+
+main{
+    background-color: #ebebeb;
+}
+
+.purple-background{
+    background-color: var(--color2);
+}
+
+.page-inner-content{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.colunas{
+    display: grid;
+    padding: 80px 20px;
+    justify-content: space-evenly ;
+}
+
+.colunas img{
+     background-color: #ffff;
+     
+}
+
+.coluna-3{
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+    
+}
+
+.coluna-3 img{
+    max-width: 100%;
+    border-radius: 6px;
+}
+
+.coluna-4{
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.coluna-4 img{
+    max-width: 100%;
+}
+
+.section-tittle{
+    text-align: center;
+    margin-top: 80px;
+    font: 1.8em;
+}
+
+.subtittle-undeline{
+    width: 100px;
+    height: 5px;
+    background-color: var(--color5);
+    border-radius: 1000px;
+    margin: 8px auto 0 auto;
+}
+
+.product{
+    color: var(--color5);
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nome-produto{
+    font-weight: 600;
+    margin-top: 0.4em;
+}
+
+.product-price span{
+    font-weight: 600;
+}
+
+
+
+
 
