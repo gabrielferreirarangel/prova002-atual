@@ -25,10 +25,10 @@
     
     
     nav {
-            display: flex; /* Coloca os itens em linha */
-            overflow-x: auto; /* Habilita a rolagem horizontal */   
-            padding: 10px; /* Espaçamento interno */
-            gap: 10px; /* Espaçamento entre os itens */
+            display: flex; 
+            overflow-x: auto;   
+            padding: 10px; 
+            gap: 10px;
             position: relative;
             right: 95px;
         }
